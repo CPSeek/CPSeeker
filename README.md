@@ -7,6 +7,26 @@ A prototype of Memory-like function seeker (CPSeeker), a hybrid (static analysis
 We present our approach and findings of this work in the following research paper: <br>
 <strong> Memcpy-Like Function Identification Method with Static and Dynamic Hybrid Analysis </strong> (reviewing)
 
+# Directories
+
+```shell
+|-- code    # the prototype of CPSeeker and baseline methods
+    |-- CPSeeker # the prototype of CPSeeker
+    |-- baseline # baseline methods
+        |-- BootStomp_finder.py
+        |-- Karonte_finder.py
+        |-- SaTC_finder.py
+        |-- SaTC_finder_fix.py
+        |-- helper.py
+        |-- opcodes.py
+
+|-- dataset # dataset used in the evaluation
+    |-- clang # binary executables compiled by clang
+    |-- gcc   # binary executables compiled by gcc
+        |-- C  # memcpy-like functions in the C libarary
+        |-- user-defined  # user defined memcpy-like functions
+
+```
 # Running environment
 
 Te run code in this repository, you need the IDA Pro (version 7.5) with Python3 support, [Unicorn (1.0.2rc4)](https://github.com/unicorn-engine/unicorn), [pyvex](https://github.com/angr/pyvex), networkx.
