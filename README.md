@@ -43,11 +43,12 @@ Te run code in this repository, you need the IDA Pro (version 7.5) with Python3 
 # Running example
 CPSeeker provides two modes of operation, analysis of a single function and analysis of the entire binary program. The single function analysis is as follows:<br>
 ![single](single.png "Single mode")
-<br>
-The output result is:<br>
+<br><
+The output result of ''single'' is:<br>
 ![output](output.png "Single mode")
-
-
+<br><
+The output result of "all" is:<br>
+![all](all.png "All mode")
 # Future work
 
 We will update it to support PowerPC. Unicorn did not support the PowerPC architecture when we implemented CPSeeker, but now it does. Subsequently, we will upgrade the Unicorn version.
