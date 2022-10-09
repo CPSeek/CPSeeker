@@ -25,7 +25,15 @@ We present our approach and findings of this work in the following research pape
     |-- gcc   # binary executables compiled by gcc
         |-- C  # memcpy-like functions in the C libarary
         |-- user-defined  # user defined memcpy-like functions
-
+    |-- CVE # cves used in the evaluation
+        |-- CVE-2017-13772
+        |-- CVE-2017-6548
+        |-- CVE-2018-11013
+        |-- CVE-2018-3950
+        |-- CVE-2018-3951
+        |-- CVE-2020-8423
+    |-- Firmware
+        |-- c2900-universalk9-mz.SPA.157-3.M2.bin
 ```
 # Running environment
 
