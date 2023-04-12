@@ -5,7 +5,7 @@ A prototype of Memory-like function seeker (CPSeeker), a hybrid (static analysis
 # Research paper
 
 We present our approach and findings of this work in the following research paper: <br>
-<strong> Memcpy-Like Function Identification Method with Static and Dynamic Hybrid Analysis </strong> (reviewing)
+<strong> Memcpy-Like Function Identification Method with Static and Dynamic Hybrid Analysis </strong> (accepted)
 
 # Directories
 
