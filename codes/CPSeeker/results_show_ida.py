@@ -102,5 +102,5 @@ if __name__ == "__main__":
         line.append("probality")
         items[i] = line
     #res.Show(items, "hello")
-    c= ResultChooser("CPSeeker Copy function", items)
+    c= ResultChooser("Copy function", items)
     c.Show()

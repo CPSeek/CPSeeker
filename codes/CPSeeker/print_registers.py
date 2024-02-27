@@ -8,11 +8,6 @@
 import os
 import networkx as nx
 
-from idautils import *
-import idaapi
-from idaapi import *
-from idc import *
-
 from unicorn import *
 from unicorn.mips_const import *
 from unicorn.arm_const import *
