@@ -336,8 +336,7 @@ def get_all_funcs(proj, mode = False):
 
 
     
-    #TRUE_PATH = "G:\\Projects\\findcopyfuncs\\test\\stunnel-mips-labels"
-    #TRUE_PATH = "C:\\Users\\surface\\OneDrive - sjtu.edu.cn\\MyWork\\CopyFuncs\\test\\stunnel-mips-labels"
+
     c_lib_cpy = [
     "memcpy", "memmove", "strcpy", "strncpy", "strcat", "strncat", "strxfrm",
     "wcscat", "wcscpy", "wcsxfrm", "wcsncpy", "wmemmove", "wcsncat", "wmemcpy",
